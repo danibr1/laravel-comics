@@ -2,6 +2,9 @@
     APP MAIN STYLE
 *****************************************/
 
-body {
-    background: #000;
-}
+// GLOBALS
+@import "./partials/vars";
+@import "./partials/defaults";
+@import "./partials//utilities";
+
+// SECTION

@@ -1,6 +1,59 @@
 /*****************************************
     APP MAIN STYLE
 *****************************************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-  background: #000;
+  font-family: "Nunito", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.header {
+  background: #fff;
+  color: #4c474d;
+}
+
+.main {
+  background: #1c1c1c;
+}
+
+.footer {
+  background: #303030;
+}
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+/********************************
+    FLEX UTILITIES
+*********************************/
+.flex {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.ji-center {
+  justify-items: center;
+}
+
+.ai-center {
+  align-items: center;
 }

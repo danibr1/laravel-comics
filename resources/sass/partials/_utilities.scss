@@ -1,0 +1,29 @@
+// GENERAL
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.txt-center {
+    text-align: center;
+}
+
+/********************************
+    FLEX UTILITIES
+*********************************/
+.flex {
+    display: flex;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.ji-center {
+    justify-items: center;
+}
+
+.ai-center {
+    align-items: center;
+}

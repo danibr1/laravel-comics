@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: $main-font;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+// HEADER
+.header {
+    background: $bg-header;
+    color: $txt-grey;
+}
+
+.main {
+    background: $bg-main;
+}
+
+.footer {
+    background: $bg-footer;
+}
