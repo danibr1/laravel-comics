@@ -1,0 +1,31 @@
+// HEADER
+.header {
+    background: $bg-header;
+    color: $txt-grey;
+    padding: 1rem 0;
+    img {
+        height: 80px;
+        margin-right: 70px;
+    }
+}
+
+.navbar {
+    ul {
+        list-style: none;
+    }
+    li {
+        margin-right: 40px;
+        .active {
+            color: $primary-col;
+        }
+        a {
+            color: $txt-grey;
+            font-weight: 700;
+            text-transform: uppercase;
+            text-decoration: none;
+            &:last-child {
+                margin-right: 0;
+            }
+        }
+    }
+}

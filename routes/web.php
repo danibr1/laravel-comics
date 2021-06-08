@@ -13,6 +13,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+// HOMEPAGE
 Route::get('/', function () {
     return view('home');
 })->name('home');
+
+// COMICS
+Route::get('/comics', function () {
+    return view('comics');
+})->name('comics');
+
+// NEWS
+Route::get('/news', function () {
+    return view('news');
+})->name('news');

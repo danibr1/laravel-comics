@@ -16,11 +16,6 @@ img {
   height: auto;
 }
 
-.header {
-  background: #fff;
-  color: #4c474d;
-}
-
 .main {
   background: #1c1c1c;
 }
@@ -56,4 +51,33 @@ img {
 
 .ai-center {
   align-items: center;
+}
+
+.header {
+  background: #fff;
+  color: #4c474d;
+  padding: 1rem 0;
+}
+.header img {
+  height: 80px;
+  margin-right: 70px;
+}
+
+.navbar ul {
+  list-style: none;
+}
+.navbar li {
+  margin-right: 40px;
+}
+.navbar li .active {
+  color: #0182f9;
+}
+.navbar li a {
+  color: #4c474d;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.navbar li a:last-child {
+  margin-right: 0;
 }

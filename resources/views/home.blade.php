@@ -14,8 +14,16 @@
 
     </head>
     <body>
+        {{-- HEADER --}}
+        @include('partials.header')
 
-        <h1>Homepage</h1>
+        {{-- MAIN --}}
+        @include('partials.main')
 
+        {{-- FOOTER --}}
+        @include('partials.footer')
+
+        {{-- JS --}}
+        <script src=" {{ asset('js/app.js') }}"></script>
     </body>
 </html>
